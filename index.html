@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Formulario</title>
+    <h1>Cuestionario de Cine</h1>
+</head>
+<body>
+    <fieldset>
+
+        <legend>Datos personales</legend>
+        <p>Nombre: <input type="text" name="nombre" size="30"> </p>
+        <p>Apellidos: <input type="text" name="nombre" size="30"> </p>
+        <p>DNI: <input type="number" name="dni">  </p>
+        <p>Edad: <input type="number" name="edad">  </p>
+        <p>Sexo: 
+        <select id="sexo" name="sexo">
+            
+            <option value="" selected="selected">- selecciona -</option>
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            
+        </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        
+        <legend>Mejor Película</legend>
+        <input type="radio" name="p1" value="1"> El Padrino
+        <input type="radio" name="p1" value="2"> Crepúsculo
+        <input type="radio" name="p1" value="3"> Los odiosos 8
+        <input type="radio" name="p1" value="4"> Anatomía de un asesinato
+
+    </fieldset>
+    <fieldset>
+        <legend>Tu opinión</legend>
+        <textarea name="opinion" rows="10" cols="40"> </textarea>
+    </fieldset>
+
+
+
+</body>
+</html>
